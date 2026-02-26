@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2830314618811377740}
   - component: {fileID: 2407200669919068072}
+  - component: {fileID: 1631523510779511416}
   m_Layer: 0
   m_Name: BlockGreen
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.323, y: 0.581, z: 0}
-  m_LocalScale: {x: 0.51798004, y: 0.51798004, z: 0.51798004}
+  m_LocalScale: {x: 0.5120404, y: 0.5120404, z: 0.5120404}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -87,3 +88,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1631523510779511416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4602071378948104260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e853cd985eb4db7a8738a6c481fff4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  spriteRenderer: {fileID: 2407200669919068072}
